@@ -3,12 +3,17 @@
 
 body {
     font-family: "Arial";
-	background: url("guitar.PNG") no-repeat;
 	
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: 10vmin 100%;
+	box-sizing: border-box;
+    width:400px;
+    height:400px;
+	border: 2px solid #000000;
+	padding: 10px;
+
+	background: url("guitar.PNG") center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-origin: content-box;
 	
     
     
