@@ -5,6 +5,18 @@ body {
     
 }
 
+.bg{
+	 background-image: url("guitar.PNG");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 /*hier maken we de horizontale streep*/
 .navbar {
     background-color: black;
