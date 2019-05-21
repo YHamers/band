@@ -4,6 +4,10 @@
 body {
     font-family: "Arial";
 	background: url("guitar.PNG") no-repeat;
+	background-size: cover;
+	background-color: black;
+	
+	
 	
 	
     
@@ -45,6 +49,7 @@ body {
 
 .navbar a:hover{
     color: tomato;
+	
 }
 
 .side-nav{
@@ -95,3 +100,5 @@ body {
 body{
     color:white;
 }
+
+
