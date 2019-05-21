@@ -58,7 +58,7 @@ body {
     opacity: 0.9;
     overflow-x: hidden;
     padding-top:60px;
-    transition:1,0s;
+    transition:1,3s;
 
 }
 
@@ -86,7 +86,7 @@ body {
 }
 
 #main{
-    transition:margin-left 1.0s;
+    transition:margin-left 1.3s;
     padding: 20px;
     overflow: hidden;
     width:100%;
