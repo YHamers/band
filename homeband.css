@@ -1,0 +1,130 @@
+
+
+
+body {
+    font-family: "Arial";
+	
+	margin: 0;
+	padding: 0;
+	background-size: cover;
+	background-color: black;
+	
+	
+	
+	
+    
+    
+
+  /* Full height */
+  
+    
+}
+
+.slider{
+	width: 1000px;
+	height: 500px;
+	background: url(1.jpg);
+	margin: 100px auto;
+	animation: slide 30s infinite;
+}
+
+@keyframes slide{
+	25%{
+		background: url(2.jpg);
+	}
+	50%{
+		background: url(3.jpg);
+	}
+	75%{
+		background: url(4.jpg);
+	}
+	100%{
+		background: url(1.jpg);
+	}
+	
+}
+
+
+
+
+
+
+/*hier maken we de horizontale streep*/
+.navbar {
+    background-color: black;
+    overflow: hidden;
+    height: 63px;
+}
+
+/*Hier maak je de horizontale links mooier in de horizontale streep bar*/
+.navbar a{
+    float: left;
+    display:block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration:none;
+    font-size:17px;
+
+}
+
+.navbar ul{
+    margin: 8px 0 0 0;
+    list-style:none;
+}
+
+.navbar a:hover{
+    color: tomato;
+	
+}
+
+.side-nav{
+    height: 100%;
+    width:0;
+    position: fixed;
+    z-index:1;
+    top:0;
+    left:0;
+    background-color:black;
+    opacity: 0.9;
+    overflow-x: hidden;
+    padding-top:60px;
+    transition:3,0s;
+
+}
+
+.side-nav a{
+    padding:10px 10px 10px 30px;
+    text-decoration:none;
+    font-size: 22px;
+    color:floralwhite;
+    display: block;
+    transition: 0,3s;
+}
+
+.side-nav a:hover{
+    color:tomato;
+
+}
+
+.side-nav .btn-close{
+
+    position:absolute;
+    top:0;
+    right:22px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main{
+    transition:margin-left 3,0s;
+    padding: 20px;
+    overflow: hidden;
+    width:100%;
+}
+
+body{
+    color:white;
+}
+
+
