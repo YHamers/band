@@ -98,11 +98,11 @@ body {
 }
 
 @media(max-width: 1000px){
-	.open-slide{display: none}
+	.navbar-nav{display: none}
 }
 
 @media(min-width:1000px){
-	.navbar-nav{display: none}
+	.open-slide{display: none}
 	
 }
 
