@@ -103,7 +103,7 @@ body {
 }
 
 @media(min-width:568px){
-	.navbar-nav{display: none}
+	.open-slide{display: none}
 	
 	
 }
