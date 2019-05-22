@@ -97,11 +97,11 @@ body {
     width:100%;
 }
 
-@media(max-width: 1500x){
+@media(max-width: 1700x){
 	.navbar-nav{display: none}
 }
 
-@media(min-width:1500px){
+@media(min-width:1700px){
 	.open-slide{display: none}
 	
 }
