@@ -23,11 +23,12 @@ body {
 
 
 
+
 /*hier maken we de horizontale streep*/
 .navbar {
     background-color: black;
     overflow: hidden;
-    height: 80px;
+    height: 63px;
 	
 }
 
@@ -37,14 +38,14 @@ body {
     display:block;
     color: white;
     text-align: center;
-    padding: 50px 40px;
+    padding: 14px 16px;
     text-decoration:none;
     font-size:17px;
 
 }
 
 .navbar ul{
-    margin: 20px 0 0 0;
+    margin: 8px 0 0 0;
     list-style:none;
 }
 
@@ -71,7 +72,7 @@ body {
 .side-nav a{
     padding:10px 10px 10px 30px;
     text-decoration:none;
-    font-size: 30px;
+    font-size: 22px;
     color:floralwhite;
     display: block;
     transition: 0,3s;
