@@ -101,7 +101,7 @@ body {
 /* max widht gelijk en groter dan min is gelijk of kleiner dan */
 
 
-@media only screen and (min-width: 960px) {
+    @media only screen and (min-width: 960px) {
         .open-slide{display: none}
     }
     @media only screen and (min-width: 1440px) {
