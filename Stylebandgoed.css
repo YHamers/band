@@ -120,13 +120,13 @@ body {
     }
     /* different techniques for iPad screening */
     @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
-		.open-slide{display: none}
+		
 		
       
     }
 
     @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
-      .open-slide{display: none}
+      
     }
 body{
     color:white;
