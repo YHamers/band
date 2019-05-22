@@ -27,7 +27,8 @@ body {
 .navbar {
     background-color: black;
     overflow: hidden;
-    height: 63px;
+    height: 80px;
+	
 }
 
 /*Hier maak je de horizontale links mooier in de horizontale streep bar*/
@@ -36,14 +37,14 @@ body {
     display:block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 50px 40px;
     text-decoration:none;
     font-size:17px;
 
 }
 
 .navbar ul{
-    margin: 8px 0 0 0;
+    margin: 20px 0 0 0;
     list-style:none;
 }
 
@@ -70,7 +71,7 @@ body {
 .side-nav a{
     padding:10px 10px 10px 30px;
     text-decoration:none;
-    font-size: 22px;
+    font-size: 30px;
     color:floralwhite;
     display: block;
     transition: 0,3s;
