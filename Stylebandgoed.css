@@ -97,22 +97,34 @@ body {
     width:100%;
 }
 
+.open-slide{display: none}
+		.navbar-nav{display: none}
+/* max widht gelijk en kleiner dan min is gelijk of groter dan */
 
-/* max widht gelijk en groter dan min is gelijk of kleiner dan */
-
-
-    @media only screen and (min-width: 960px) {
-        .open-slide{display: none}
+    @media only screen and (min-width: 2960px) {
+		.navbar-nav{display: none}
+		
+        
     }
     @media only screen and (min-width: 1440px) {
-        .open-slide{display: none}
+        /* styles for browsers larger than 1440px; */
     }
     @media only screen and (min-width: 2000px) {
-        .open-slide{display: none}
+        /* for sumo sized (mac) screens */
     }
     @media only screen and (max-device-width: 480px) {
-		.navbar-nav{display: none}
-       
+       /* styles for mobile browsers smaller than 480px; (iPhone) */
+    }
+    @media only screen and (device-width: 768px) {
+       /* default iPad screens */
+    }
+    /* different techniques for iPad screening */
+    @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+      /* For portrait layouts only */
+    }
+
+    @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+      /* For landscape layouts only */
     }
     
 body{
