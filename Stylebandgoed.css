@@ -97,16 +97,16 @@ body {
     width:100%;
 }
 
-@media only screen and(max-width:568px){
+@media(max-width: 1000px){
+	.open-slide{display: none}
+}
+
+@media(min-width:1000px){
 	.navbar-nav{display: none}
 	
 }
 
-@media(min-width:568px){
-	.open-slide{display: none}
-	
-	
-}
+
 
 body{
     color:white;
