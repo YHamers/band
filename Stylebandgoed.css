@@ -114,20 +114,7 @@ body {
 		.navbar-nav{display: none}
        
     }
-    @media only screen and (device-width: 768px) {
-		
-       
-    }
-    /* different techniques for iPad screening */
-    @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
-		
-		
-      
-    }
-
-    @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
-      
-    }
+    
 body{
     color:white;
 }
