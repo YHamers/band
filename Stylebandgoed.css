@@ -97,16 +97,34 @@ body {
     width:100%;
 }
 
-@media(max-width:568px){
-	.navbar-nav{display: none}
-	
-}
 
-@media(min-width:568px){
-	.open-slide{display: none}
-	
-}
+/* max widht gelijk en groter dan min is gelijk of kleiner dan */
 
+
+@media only screen and (min-width: 960px) {
+        .open-slide{display: none}
+    }
+    @media only screen and (min-width: 1440px) {
+        .open-slide{display: none}
+    }
+    @media only screen and (min-width: 2000px) {
+        .open-slide{display: none}
+    }
+    @media only screen and (max-device-width: 480px) {
+		.navbar-nav{display: none}
+       
+    }
+    @media only screen and (device-width: 768px) {
+       
+    }
+    /* different techniques for iPad screening */
+    @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+      
+    }
+
+    @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+      /* For landscape layouts only */
+    }
 body{
     color:white;
 }
