@@ -102,7 +102,7 @@ body {
 	
 }
 
-@media(min-width:568px){
+@media(min-width:200px){
 	.open-slide{display: none}
 	
 }
